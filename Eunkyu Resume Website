@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eunkyu | Personal Resume</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+    <h1>Eunkyu</h1>
+    <p>Student | Mathematics | Coding</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#activities">Activities</a>
+    <a href="#resume">Resume</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! My name is Eunkyu. I am a Grade 9 student interested in mathematics
+        . I enjoy solving complex problems and learning
+        about how systems work in the real world.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <canvas id="skillChart"></canvas>
+</section>
+
+<section id="activities">
+    <h2>Activities & Interests</h2>
+    <ul>
+        <li>Mathematics competitions</li>
+        <li>Programming and coding</li>
+        <li>Learning German</li>
+        <li>Reading about economics and global issues</li>
+    </ul>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below:</p>
+    <a class="button" href="resume.pdf" download>Download Resume</a>
+</section>
+
+<footer>
+    <p>© 2026 Eunkyu</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
